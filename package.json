@@ -7,8 +7,13 @@
     "bootstrap": "^4.0.0-alpha.6",
     "gatsby": "^1.6.5",
     "gatsby-link": "^1.6.5",
+    "gatsby-plugin-manifest": "^1.0.1",
+    "gatsby-plugin-nprogress": "^1.0.1",
+    "gatsby-plugin-offline": "^1.0.1",
     "gatsby-plugin-react-helmet": "^1.0.1",
-    "gatsby-plugin-typography": "^1.7.2"
+    "gatsby-plugin-typography": "^1.7.2",
+    "gatsby-remark-images": "^1.5.0",
+    "gatsby-transformer-remark": "^1.7.0"
   },
   "keywords": [
     "gatsby"

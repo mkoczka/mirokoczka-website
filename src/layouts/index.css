@@ -75,12 +75,12 @@ img {
 }
 
 .box-wrap {
-    background: #fff;
+    padding-bottom: 50px;
 }
 
 .header {
     margin-bottom: 70px;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 0;
 }
 
@@ -116,7 +116,6 @@ img {
 }
 
 .content {
-    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -211,6 +210,7 @@ textarea.form-control {
 }
 
 @media (min-width: 768px) {
+
     .content {
         max-width: 80%;
     }
@@ -227,4 +227,30 @@ textarea.form-control {
     .navigation li:first-child {
         margin-left: 25px;
     }
+}
+
+@media (max-width: 767px) {
+    .display-1 {
+        text-align: left;
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .lead {
+        text-align: left;
+    }
+}
+
+.icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.icon svg {
+    transition: fill .5s;
+}
+
+.icon:hover svg {
+    fill: #808080;
 }

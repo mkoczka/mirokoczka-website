@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Logo from '../static/me.jpg';
 
 export default () =>
   <div>
     <div className="row">
       <div className="col-md-6 text-md-right text-center">
         <img
-          src="/static/me.jpg"
+          src={Logo}
           width="200"
           height="200"
           style={{ borderRadius: '50%' }}

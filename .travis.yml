@@ -7,7 +7,7 @@ before_install:
   - npm i -g gatsby-cli
   - npm i -g npm@5.3.0
 script:
-  - gatsby build
+  - gatsby build --prefix-paths
 deploy:
   provider: pages
   skip_cleanup: true

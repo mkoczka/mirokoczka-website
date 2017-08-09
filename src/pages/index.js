@@ -1,9 +1,10 @@
 import React from 'react'
+import Logo from '../static/me.jpg';
 
 export default () =>
   <div className="text-center text-md-left">
     <img
-      src="/static/me.jpg"
+      src={Logo}
       width="200"
       height="200"
       style={{ borderRadius: '50%' }}

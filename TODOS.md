@@ -1,8 +1,12 @@
 - [ ] Analytics
-- [ ] bottom padding
-- [ ] font responsivity
+- [ ] modal scrolling fix
 - [ ] skills fancy effect
-- [ ] works fancy effect
-- [ ] hire me dialog
 - [ ] mail confirmations (hire me, contact)
-- [ ] social networks
+- [ ] offline support
+- [ ] css
+- [ ] manifest images
+- [ ] automatically count years
+
+Later
+- [ ] blog
+- [ ] works
