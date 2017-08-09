@@ -1,0 +1,8 @@
+- [ ] Analytics
+- [ ] bottom padding
+- [ ] font responsivity
+- [ ] skills fancy effect
+- [ ] works fancy effect
+- [ ] hire me dialog
+- [ ] mail confirmations (hire me, contact)
+- [ ] social networks
