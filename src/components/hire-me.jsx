@@ -32,10 +32,12 @@ export default class HireMe extends React.Component {
           }
 
           function removeModalHandler() {
+            document.querySelector('body').classList.remove('md-open');
             removeModal(el.classList.contains('md-setperspective'));
           }
 
           el.addEventListener('click', function (ev) {
+            document.querySelector('body').classList.add('md-open');
             modal.classList.add('md-show');
             overlay.removeEventListener('click', removeModalHandler);
             overlay.addEventListener('click', removeModalHandler);

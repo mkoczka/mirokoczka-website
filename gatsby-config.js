@@ -3,6 +3,12 @@ module.exports = {
     title: `Miro Koczka`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-104411252-1',
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
@@ -21,16 +27,12 @@ module.exports = {
         display: "standalone",
         icons: [
           {
-            // Everything in /static will be copied to an equivalent
-            // directory in /public during development and build, so
-            // assuming your favicons are in /static/favicons,
-            // you can reference them here
-            src: `/static/me.png`,
+            src: `/me.png`,
             sizes: `192x192`,
             type: `image/png`,
           },
           {
-            src: `/static/me.png`,
+            src: `/me.png`,
             sizes: `512x512`,
             type: `image/png`,
           },

@@ -7,6 +7,7 @@
     "bootstrap": "^4.0.0-alpha.6",
     "gatsby": "^1.6.5",
     "gatsby-link": "^1.6.5",
+    "gatsby-plugin-google-analytics": "^1.0.1",
     "gatsby-plugin-manifest": "^1.0.1",
     "gatsby-plugin-nprogress": "^1.0.1",
     "gatsby-plugin-offline": "^1.0.1",

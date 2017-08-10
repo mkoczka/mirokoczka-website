@@ -60,6 +60,14 @@
     }
 }
 
+html, body {
+    height:100%;
+}
+
+body.md-open {
+    overflow: hidden;
+}
+
 a {
     color: #228822;
 }

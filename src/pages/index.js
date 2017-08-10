@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../static/me.jpg';
+import Logo from '../../static/me.jpg';
 
 export default () =>
   <div className="text-center text-md-left">

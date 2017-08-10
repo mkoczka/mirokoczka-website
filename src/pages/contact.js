@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../static/me.jpg';
+import Logo from '../../static/me.jpg';
 
 export default () =>
   <div>
@@ -51,7 +51,7 @@ export default () =>
         </div>
         <div className="form-group">
           <label htmlFor="message">Message</label>
-          <textarea className="form-control" name="message" rows="10" />
+          <textarea className="form-control" name="message" rows="10" required />
         </div>
         <div className="text-right">
           <input
