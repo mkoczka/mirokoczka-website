@@ -1,6 +1,5 @@
-- [ ] skills fancy effect
-- [ ] css
-- [ ] automatically count years
+- [ ] cleanup css
+- [ ] offline support fix
 
 Later
 - [ ] mail confirmation on all new pages
