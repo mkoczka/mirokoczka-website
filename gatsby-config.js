@@ -1,12 +1,13 @@
 module.exports = {
   siteMetadata: {
     title: `Miro Koczka`,
+    siteUrl: `https://www.mirokoczka.com`
   },
   plugins: [
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-104411252-1',
+        trackingId: `UA-104411252-1`,
       },
     },
     `gatsby-plugin-react-helmet`,
@@ -59,6 +60,7 @@ module.exports = {
       options: {
         color: `#228822`,
       }
-    }
+    },
+    "gatsby-plugin-sitemap"
   ]
 };

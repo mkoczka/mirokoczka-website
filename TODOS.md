@@ -1,7 +1,18 @@
-- [ ] cleanup css
-- [ ] offline support fix
+- cleanup css
+- offline support fix
+- favicon
+- deployment (github CNAME, invalidate cloudfront)
+- lighthouse check
+- SEO
+  - Sitemap generation
+  - General description tags
+  - Schema.org JSONLD (Google Rich Snippets)
+  - OpenGraph Tags (Facebook/Google+/Pinterest)
+  - Twitter Tags (Twitter Cards)
 
 Later
-- [ ] mail confirmation on all new pages
-- [ ] blog
-- [ ] works
+- redirect non-www domain to www
+- mail confirmation on all new pages
+- blog
+- rss feed
+- works

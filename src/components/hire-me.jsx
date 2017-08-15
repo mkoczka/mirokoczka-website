@@ -12,15 +12,15 @@ export default class HireMe extends React.Component {
   }
 
   initModal() {
-    var ModalEffects = (function () {
+    (function () {
 
       function init() {
 
-        var overlay = document.querySelector('.md-overlay');
+        const overlay = document.querySelector('.md-overlay');
 
-        [].slice.call(document.querySelectorAll('.md-trigger')).forEach(function (el, i) {
+        [].slice.call(document.querySelectorAll('.md-trigger')).forEach(function (el) {
 
-          var modal = document.querySelector('#' + el.getAttribute('data-modal')),
+          const modal = document.querySelector('#' + el.getAttribute('data-modal')),
             close = modal.querySelector('.md-close');
 
           function removeModal(hasPerspective) {
@@ -36,7 +36,7 @@ export default class HireMe extends React.Component {
             removeModal(el.classList.contains('md-setperspective'));
           }
 
-          el.addEventListener('click', function (ev) {
+          el.addEventListener('click', function () {
             document.querySelector('body').classList.add('md-open');
             modal.classList.add('md-show');
             overlay.removeEventListener('click', removeModalHandler);
