@@ -28,7 +28,7 @@ export default class IndexPage extends React.Component {
           Hi. I'm Miro, a {this.state.age} years Senior Frontend Developer at Pipeliner CRM.
         </h1>
         <p className="lead">
-          I enjoy building web & mobile applications that people love to use.
+          I enjoy building web & mobile applications people love to use.
         </p>
       </div>
     )

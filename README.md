@@ -1,13 +1,7 @@
-# gatsby-starter-default
-The default Gatsby starter
+# mirokoczka-website
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+[mirokoczka.com](https://www.mirokoczka.com)
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+This is my personal (static generated) website.
 
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+It was build from scratch with [gatsbyjs](gatsbyjs.org) and is hosted for free thanks to [github-pages](https://pages.github.com) and [formspree.io](formspree.io).

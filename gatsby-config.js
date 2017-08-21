@@ -61,6 +61,21 @@ module.exports = {
         color: `#228822`,
       }
     },
-    "gatsby-plugin-sitemap"
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        serialize: ({site, allSitePage}) =>
+          allSitePage.edges.filter(edge => {
+            console.log(edge);
+            return !(edge.node.path === '/offline-plugin-app-shell-fallback/' || edge.node.path === '/404/' || edge.node.path === '/404.html');
+          }).map(edge => {
+            return {
+              url: site.siteMetadata.siteUrl + edge.node.path,
+              changefreq: `daily`,
+              priority: 0.7,
+            }
+          }),
+      }
+    }
   ]
 };
