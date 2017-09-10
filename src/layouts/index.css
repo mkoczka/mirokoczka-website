@@ -83,7 +83,9 @@ img {
 }
 
 .box-wrap {
+    position: relative;
     padding-bottom: 50px;
+    z-index: 1;
 }
 
 .header {
