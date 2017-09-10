@@ -1,5 +1,4 @@
 - apple icons
-- blog
 - rss feed
 
 Later

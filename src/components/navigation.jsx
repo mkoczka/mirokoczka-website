@@ -19,6 +19,7 @@ export default class Navigation extends React.Component {
         <ul className="text-md-right text-center">
           <li><Link exact activeStyle={ActiveStyle} to="/">About me</Link></li>
           <li><Link activeStyle={ActiveStyle} to="/skills">Skills</Link></li>
+          <li><a href="https://medium.com/@mirokoczka/" target="_blank">Blog</a></li>
           <li><Link activeStyle={ActiveStyle} to="/contact">Contact</Link></li>
           <li>
             <button className="btn btn-outline-primary md-trigger" data-modal="hire-me">Hire Me</button>
