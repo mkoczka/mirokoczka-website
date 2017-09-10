@@ -33,7 +33,7 @@ export default () =>
       method="POST"
       className="row"
     >
-      <div className="col-lg-8 offset-lg-2">
+      <div className="col-lg-8" style={{margin: '0 auto'}}>
         <div className="row">
           <div className="form-group  col-md-6">
             <label htmlFor="_replyto">Email</label>
