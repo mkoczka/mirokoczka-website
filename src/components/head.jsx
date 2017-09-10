@@ -11,10 +11,11 @@ export default class Head extends React.Component {
       "url": "http://www.mirokoczka.com",
       "name": "Miro Koczka",
       "description": description,
-      "telophone": "+421 903 199 927"
+      "telephone": "+421 903 199 927"
     };
     return (
       <Helmet
+        lang="en"
         title="Miro Koczka"
         meta={[
           {name: 'description', content: description},
@@ -23,6 +24,7 @@ export default class Head extends React.Component {
             content: 'Miro, Miroslav, Koczka, usbecko, Pipeliner, Crm, Frontend, Developer, Javascript, Angular, React, Typescript'
           },
         ]}>
+        <html lang="en" />
         <script type="application/ld+json">
           {JSON.stringify(schemaOrgJSONLD)}
         </script>
