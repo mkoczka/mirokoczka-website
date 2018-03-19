@@ -25,7 +25,7 @@ export default class IndexPage extends React.Component {
           style={{borderRadius: '50%'}}
         />
         <h1 className="display-1">
-          Hi. I'm Miro, a {this.state.age} years Senior Frontend Developer at Pipeliner CRM.
+          Hi. I'm Miro, a {this.state.age} years Senior Frontend Developer at Softec.
         </h1>
         <p className="lead">
           I enjoy building web & mobile applications people love to use.
