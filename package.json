@@ -13,7 +13,7 @@
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "start": "gatsby develop",
     "prettier": "prettier --write 'src/**/*.{js,jsx}'",
     "test": "exit 0"
   },
