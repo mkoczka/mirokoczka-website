@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../../static/me.jpg';
 
-export default () =>
+export default () => (
   <div>
     <div className="row">
       <div className="col-md-6 text-md-right text-center">
@@ -33,7 +33,7 @@ export default () =>
       method="POST"
       className="row"
     >
-      <div className="col-lg-8" style={{margin: '0 auto'}}>
+      <div className="col-lg-8" style={{ margin: '0 auto' }}>
         <div className="row">
           <div className="form-group  col-md-6">
             <label htmlFor="_replyto">Email</label>
@@ -51,7 +51,12 @@ export default () =>
         </div>
         <div className="form-group">
           <label htmlFor="message">Message</label>
-          <textarea className="form-control" name="message" rows="10" required />
+          <textarea
+            className="form-control"
+            name="message"
+            rows="10"
+            required
+          />
         </div>
         <div className="text-right">
           <input
@@ -63,3 +68,4 @@ export default () =>
       </div>
     </form>
   </div>
+);
