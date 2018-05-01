@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-export default () =>
+export default () => (
   <div>
     <h2>Work</h2>
   </div>
+);
