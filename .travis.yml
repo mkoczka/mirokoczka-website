@@ -2,21 +2,12 @@ branches:
   only:
     - release
 language: node_js
-node_js: 7
 env:
   - NODE_ENV=production
 cache:
   directories:
     - "node_modules"
 before_install:
-  - npm i -g gatsby-cli
-  - npm i -g npm@5.3.0
+  - npm i -g npm@5.6.0
 script:
-  - gatsby build
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: public
-  on:
-    branch: release
+  - npm run build
