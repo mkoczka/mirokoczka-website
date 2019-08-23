@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Miro Koczka`,
-    siteUrl: `https://www.mirokoczka.com`
+    siteUrl: `https://www.mirokoczka.com`,
   },
   plugins: [
     {
@@ -28,14 +28,14 @@ module.exports = {
         display: "standalone",
         icons: [
           {
-            src: `/me.jpg`,
+            src: `/me.png`,
             sizes: `192x192`,
-            type: `image/jpg`,
+            type: `image/png`,
           },
           {
-            src: `/me.jpg`,
+            src: `/me.png`,
             sizes: `512x512`,
-            type: `image/jpg`,
+            type: `image/png`,
           },
         ],
       },
@@ -52,30 +52,36 @@ module.exports = {
               linkImagesToOriginal: false,
             },
           },
-        ]
-      }
+        ],
+      },
     },
     {
       resolve: `gatsby-plugin-nprogress`,
       options: {
         color: `#228822`,
-      }
+      },
     },
     {
       resolve: "gatsby-plugin-sitemap",
       options: {
-        serialize: ({site, allSitePage}) =>
-          allSitePage.edges.filter(edge => {
-            console.log(edge);
-            return !(edge.node.path === '/offline-plugin-app-shell-fallback/' || edge.node.path === '/404/' || edge.node.path === '/404.html');
-          }).map(edge => {
-            return {
-              url: site.siteMetadata.siteUrl + edge.node.path,
-              changefreq: `daily`,
-              priority: 0.7,
-            }
-          }),
-      }
-    }
-  ]
-};
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.edges
+            .filter(edge => {
+              console.log(edge)
+              return !(
+                edge.node.path === "/offline-plugin-app-shell-fallback/" ||
+                edge.node.path === "/404/" ||
+                edge.node.path === "/404.html"
+              )
+            })
+            .map(edge => {
+              return {
+                url: site.siteMetadata.siteUrl + edge.node.path,
+                changefreq: `daily`,
+                priority: 0.7,
+              }
+            }),
+      },
+    },
+  ],
+}

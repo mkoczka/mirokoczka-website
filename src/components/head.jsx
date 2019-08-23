@@ -1,28 +1,28 @@
-import React from 'react';
-import Logo from '../../static/me.jpg';
-import { Helmet } from 'react-helmet';
+import React from "react"
+import Logo from "../images/me.png"
+import { Helmet } from "react-helmet"
 
 export default class Head extends React.Component {
   render() {
-    const description = `I'm Miro, a 24 years Senior Frontend Developer at Pipeliner CRM`;
+    const description = `I'm Miro, a 24 years Senior Frontend Developer at Pipeliner CRM`
     const schemaOrgJSONLD = {
-      '@context': 'http://schema.org',
-      '@type': 'Person',
-      url: 'http://www.mirokoczka.com',
-      name: 'Miro Koczka',
+      "@context": "http://schema.org",
+      "@type": "Person",
+      url: "http://www.mirokoczka.com",
+      name: "Miro Koczka",
       description: description,
-      telephone: '+421 903 199 927',
-    };
+      telephone: "+421 903 199 927",
+    }
     return (
       <Helmet
         lang="en"
         title="Miro Koczka"
         meta={[
-          { name: 'description', content: description },
+          { name: "description", content: description },
           {
-            name: 'keywords',
+            name: "keywords",
             content:
-              'Miro, Miroslav, Koczka, usbecko, Pipeliner, Crm, Frontend, Developer, Javascript, Angular, React, Typescript',
+              "Miro, Miroslav, Koczka, usbecko, Pipeliner, Crm, Frontend, Developer, Javascript, Angular, React, Typescript",
           },
         ]}
       >
@@ -43,6 +43,6 @@ export default class Head extends React.Component {
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={Logo} />
       </Helmet>
-    );
+    )
   }
 }

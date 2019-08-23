@@ -131,8 +131,9 @@ img {
 
 .display-1 {
     font-family: 'Roboto', 'Arial', 'sans-serif';
-    font-size: 56px;
+    font-size: 48px;
     font-weight: 300;
+    line-height: 1.4;
 }
 
 .lead {
@@ -242,7 +243,7 @@ textarea.form-control {
 @media (max-width: 767px) {
     .display-1 {
         text-align: left;
-        font-size: 45px;
+        font-size: 38px;
         margin-bottom: 20px;
     }
 
