@@ -41,47 +41,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 590,
-              linkImagesToOriginal: false,
-            },
-          },
-        ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-nprogress`,
-      options: {
-        color: `#228822`,
-      },
-    },
-    {
-      resolve: "gatsby-plugin-sitemap",
-      options: {
-        serialize: ({ site, allSitePage }) =>
-          allSitePage.edges
-            .filter(edge => {
-              console.log(edge)
-              return !(
-                edge.node.path === "/offline-plugin-app-shell-fallback/" ||
-                edge.node.path === "/404/" ||
-                edge.node.path === "/404.html"
-              )
-            })
-            .map(edge => {
-              return {
-                url: site.siteMetadata.siteUrl + edge.node.path,
-                changefreq: `daily`,
-                priority: 0.7,
-              }
-            }),
-      },
-    },
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-netlify`,
   ],
 }
