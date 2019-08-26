@@ -46,8 +46,9 @@ export default class IndexPage extends React.Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              PanoramicHQ
-            </a>.
+              Panoramic
+            </a>
+            .
           </h1>
           <p className="lead">
             I enjoy building web & mobile applications people love to use.
