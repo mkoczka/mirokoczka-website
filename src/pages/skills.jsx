@@ -1,16 +1,26 @@
-import React from 'react';
-import Layout from '../components/layout';
+import React from "react"
+import Layout from "../components/layout"
 
 export default () => (
   <Layout>
     <div>
-      <h3>Frameworks</h3>
-      <p>angular 2/ionic/react/react native/ember/expressjs/meteor/graphql</p>
+      <h3>Preferred Frontend Frameworks</h3>
+      <p>React/Next.js/Gatsby/React Native/Flutter</p>
+      <br />
+      <br />
+
+      <h3>Backend</h3>
+      <p>express.js/Koa/Nest.js</p>
+      <br />
+      <br />
+
+      <h3>Databases</h3>
+      <p>PostgreSQL/MySQL/MongoDB</p>
       <br />
       <br />
 
       <h3>Languages</h3>
-      <p>javascript (es6)/typescript/html5/css/scss/less</p>
+      <p>javascript (ES6+)/typescript/html5/css/scss/less</p>
       <br />
       <br />
 
@@ -22,7 +32,7 @@ export default () => (
       <br />
 
       <h3>Additional</h3>
-      <p>git/svn/docker/jira/trello/photoshop/illustrator/scrum/agile</p>
+      <p>git/docker/sketch/figma/jira/trello/scrum/agile</p>
     </div>
   </Layout>
-);
+)
