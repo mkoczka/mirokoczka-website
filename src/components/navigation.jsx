@@ -53,11 +53,6 @@ export default class Navigation extends React.Component {
             </Link>
           </li>
           <li>
-            <Link activeStyle={ActiveStyle} to="/skills">
-              Skills
-            </Link>
-          </li>
-          <li>
             <a
               href="https://medium.com/@mirokoczka/"
               target="_blank"
@@ -70,14 +65,6 @@ export default class Navigation extends React.Component {
             <Link activeStyle={ActiveStyle} to="/contact">
               Contact
             </Link>
-          </li>
-          <li>
-            <button
-              className="btn btn-outline-primary md-trigger"
-              data-modal="hire-me"
-            >
-              Hire Me
-            </button>
           </li>
         </ul>
       </div>
