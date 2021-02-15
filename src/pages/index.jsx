@@ -34,21 +34,13 @@ export default class IndexPage extends React.Component {
             Hi. I'm Miro, a {age}y/o Software engineer. I build software,
             medium-sized businesses & startups. I'm the co-founder of{" "}
             <a
-              href="https://spolocnebyvanie.sk"
+              href="https://ourlivespace.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Spolocne Byvanie
+              LiveSpace
             </a>{" "}
-            and Software Engineering Team lead at{" "}
-            <a
-              href="https://panoramichq.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Panoramic
-            </a>
-            .
+            and Software Engineer at Microsoft.
           </h1>
           <p className="lead">
             I enjoy building web & mobile applications people love to use.
