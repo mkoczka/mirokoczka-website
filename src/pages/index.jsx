@@ -9,7 +9,7 @@ export default class IndexPage extends React.Component {
   }
 
   getAge() {
-    const birthday = new Date(1993, 6, 20)
+    const birthday = new Date(2009, 1, 1)
     const today = new Date()
     const millisecondsInYear = 1000 * 60 * 60 * 24 * 365
     return Math.floor((today - birthday) / millisecondsInYear)
@@ -31,7 +31,7 @@ export default class IndexPage extends React.Component {
             style={{ borderRadius: "50%" }}
           />
           <h1 className="display-1">
-            Hi. I'm Miro, a {age}y/o Software engineer. I build software,
+            Hi. I'm Miro, Software Engineer with {age}+ years experience. I build software,
             medium-sized businesses & startups. I'm the co-founder of{" "}
             <a
               href="https://ourlivespace.com"
