@@ -1,5 +1,5 @@
 import React from "react"
-import Logo from "../images/me.png"
+import Logo from "../images/me.jpeg"
 import { Helmet } from "react-helmet"
 
 export default class Head extends React.Component {

@@ -28,14 +28,14 @@ module.exports = {
         display: "standalone",
         icons: [
           {
-            src: `/me.png`,
+            src: `/me.jpeg`,
             sizes: `192x192`,
-            type: `image/png`,
+            type: `image/jpeg`,
           },
           {
-            src: `/me.png`,
+            src: `/me.jpeg`,
             sizes: `512x512`,
-            type: `image/png`,
+            type: `image/jpeg`,
           },
         ],
       },

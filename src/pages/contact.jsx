@@ -1,5 +1,5 @@
 import React from "react"
-import Logo from "../images/me.png"
+import Logo from "../images/me.jpeg"
 import Layout from "../components/layout"
 
 export default () => (
