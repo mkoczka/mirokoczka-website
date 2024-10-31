@@ -33,10 +33,13 @@ export default class IndexPage extends React.Component {
           />
           <h1 className="display-1">
             Hi, I’m Miro – an Engineering Manager with over {age} years of professional experience in building software, scaling teams, and driving innovation in medium-sized businesses and startups. I’m also the co-founder of
-            <a href="https://susedia.sk" target="_blank" rel="noopener noreferrer">Susedia.sk</a>.
+            {' '}<a href="https://susedia.sk" target="_blank" rel="noopener noreferrer">Susedia.sk</a>.
           </h1>
           <p className="lead">
-            With over {age} years of experience in software engineering and technical leadership, I specialize in building high-performing teams, streamlining development processes, and delivering scalable, user-focused solutions. As an Engineering Manager, I’ve led cross-functional teams through complex technical challenges and brought innovative projects to life in both startups and established companies. I am passionate about creating a collaborative environment where engineers can thrive, grow, and drive impactful change in the tech landscape.
+            With over {age} years of experience in software engineering and technical leadership, I specialize in building high-performing teams, streamlining development processes, and delivering scalable, user-focused solutions.<br />
+            <br />
+            As an Engineering Manager, I’ve led cross-functional teams through complex technical challenges and brought innovative projects to life in both startups and established companies.<br />
+            I am passionate about creating a collaborative environment where engineers can thrive, grow, and drive impactful change in the tech landscape.<br />
             <br />
             If you’re interested in discussing engineering leadership, product development, or just want to connect, feel free to <Link to="/contact">reach out</Link> – I’d love to chat!
           </p>
