@@ -1,6 +1,7 @@
 import React from "react"
-import Logo from "../images/me.png"
+import Logo from "../images/me.jpeg"
 import Layout from "../components/layout"
+import Link from "gatsby-link"
 
 export default class IndexPage extends React.Component {
   constructor(props) {
@@ -9,7 +10,7 @@ export default class IndexPage extends React.Component {
   }
 
   getAge() {
-    const birthday = new Date(2009, 1, 1)
+    const birthday = new Date(2014, 1, 1)
     const today = new Date()
     const millisecondsInYear = 1000 * 60 * 60 * 24 * 365
     return Math.floor((today - birthday) / millisecondsInYear)
@@ -31,19 +32,13 @@ export default class IndexPage extends React.Component {
             style={{ borderRadius: "50%" }}
           />
           <h1 className="display-1">
-            Hi. I'm Miro, Software Engineer with {age}+ years experience. I build software,
-            medium-sized businesses & startups. I'm the co-founder of{" "}
-            <a
-              href="https://ourlivespace.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              LiveSpace
-            </a>{" "}
-            and Software Engineer at Microsoft.
+            Hi, I’m Miro – an Engineering Manager with over {age} years of professional experience in building software, scaling teams, and driving innovation in medium-sized businesses and startups. I’m also the co-founder of
+            <a href="https://susedia.sk" target="_blank" rel="noopener noreferrer">Susedia.sk</a>.
           </h1>
           <p className="lead">
-            I enjoy building web & mobile applications people love to use.
+            With over {age} years of experience in software engineering and technical leadership, I specialize in building high-performing teams, streamlining development processes, and delivering scalable, user-focused solutions. As an Engineering Manager, I’ve led cross-functional teams through complex technical challenges and brought innovative projects to life in both startups and established companies. I am passionate about creating a collaborative environment where engineers can thrive, grow, and drive impactful change in the tech landscape.
+            <br />
+            If you’re interested in discussing engineering leadership, product development, or just want to connect, feel free to <Link to="/contact">reach out</Link> – I’d love to chat!
           </p>
         </div>
       </Layout>
